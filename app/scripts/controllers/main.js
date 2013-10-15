@@ -7,9 +7,9 @@ angular.module('referenceMeApp')
    
 
 
-   	$scope.chooseCategory = function(currentCategory) {
+   /*	$scope.chooseCategory = function(currentCategory) {
 
     	$rootScope.currentCategory = currentCategory;
-    };
+    };*/
 
   });
