@@ -1,1 +1,25 @@
-<p>This is the categories view.</p>
+<div id="categories">
+  <h1 style="text-align:center; margin-bottom: 80px">{{ currentCategory}}</h1>
+  
+  <div style="margin-bottom: 80px" ng-repeat="link in links | filter: isTag">
+  		<div style= "margin-bottom: 10px">
+  			<b>{{ link.name }} posted </b>
+  			<span style="float: right">on {{link.date | date: 'd MMM, y @ h:mm a'}}</span>
+  		</div>
+  		<div style= "margin-bottom: 10px">
+  			<a href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+  		</div>
+  		<br />
+  		<div id="comments" >
+  			<i>Comments:</i>
+  			<div ng-repeat="comment in link.comments">
+  				{{ comment.commentName }} <span style="font-size:20px">on {{ comment.commentDate | date: 'd MMM, y @ h:mm a'}}</span>
+  				<span style="float: right"> {{ comment.comment }}</span>
+  				<br />
+  			</div>
+  		</div>
+  </div>
+
+</div>
+
+

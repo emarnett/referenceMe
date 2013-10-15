@@ -1,0 +1,437 @@
+var hipchatLinks = [
+ 
+  {
+    "date": "2013-09-29T06:54:22+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://learnxinyminutes.com/docs/javascript/",
+    "tag": "JavaScript",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-29T08:54:22+00:00",
+            "comment":"great resource!"
+        },
+
+        {
+            "commentName":"John Smith",
+            "commentDate":"2013-09-29T10:54:22+00:00",
+            "comment":"awesome!"
+        }
+    ]
+  },
+  {
+    "date": "2013-09-30T01:28:05+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.quora.com/Learning-to-Program/What-is-expected-of-a-junior-back-end-web-developer",
+    "tag":"JavaScript",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T02:28:05+00:00",
+            "comment":"good to know!"
+        },
+
+        {
+            "commentName":"John Smith",
+            "commentDate":"2013-09-30T05:28:05+00:00",
+            "comment":"awesome!"
+        }
+    ]
+  },
+  {
+    "date": "2013-09-30T04:03:23+00:00",
+    "name": "Eddie Lau",
+    "url": "http://brew.sh/",
+    "tag":"Misc/other",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T05:03:23+00:00",
+            "comment":"useful :)"
+        },
+
+        {
+            "commentName":"John Smith",
+            "commentDate":"2013-09-30T06:03:23+00:00",
+            "comment":"awesome!"
+        }
+    ]
+  },
+  {
+    "date": "2013-09-30T08:16:52+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/3dd13/yeoman_webapp_github_example",
+    "tag":"HTML",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T05:03:23+00:00",
+            "comment":"useful :)"
+        },
+
+        {
+            "commentName":"John Smith",
+            "commentDate":"2013-09-30T06:03:23+00:00",
+            "comment":"awesome!"
+        }
+    ]
+  },
+  {
+    "date": "2013-09-30T09:22:06+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/",
+    "tag": "JavaScript",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T05:03:23+00:00",
+            "comment":"Thanks!"
+        }
+    ]
+  },
+  {
+    "date": "2013-10-01T00:51:26+00:00",
+    "name": "Bruno Wu",
+    "url": "https://github.com/gruntjs/grunt-contrib-compass",
+    "tag":"HTML",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T05:03:23+00:00",
+            "comment":"Woah"
+        }
+    ]
+  },
+  {
+    "date": "2013-10-01T08:43:01+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.youtube.com/watch?v=bZUpQN_u_kk",
+    "tag":"Funny",
+    "comments":
+    [
+        {
+            "commentName":"Emily Arnett",
+            "commentDate":"2013-09-30T05:03:23+00:00",
+            "comment":"funny"
+        }
+    ]
+  },
+  {
+    "date": "2013-10-02T01:08:14+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.sublimetext.com/docs/2/osx_command_line.html",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-02T01:08:32+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://hipchat-emoticons.nyh.name/",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-02T01:39:13+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/3dd13/yeoman_webapp_github_example/wiki/Publish-your-web-page-to-github.io",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-02T01:58:34+00:00",
+    "name": "Eddie Lau",
+    "url": "http://3dd13.github.io/yeoman_webapp_github_example/",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-02T02:29:24+00:00",
+    "name": "Eddie Lau",
+    "url": "https://sublime.wbond.net/installation",
+    "tag":"JavaScript"
+  },
+  {
+    "date": "2013-10-02T05:38:25+00:00",
+    "name": "Eddie Lau",
+    "url": "http://another-crowd-funding.herokuapp.com",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-02T08:34:09+00:00",
+    "name": "Eddie Lau",
+    "url": "https://www.pivotaltracker.com/s/projects/924186",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-02T09:15:01+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://i.imgur.com/qrLEV.gif",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-02T13:03:06+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://geoff.greer.fm/lscolors/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-03T01:03:30+00:00",
+    "name": "Eddie Lau",
+    "url": "http://alistapart.com/article/sustainable-web-design?utm_content=buffer43539&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-03T01:15:04+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.unrealengine.com/html5/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-03T01:15:13+00:00",
+    "name": "Eddie Lau",
+    "url": "https://securesha.re/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-03T01:15:56+00:00",
+    "name": "Eddie Lau",
+    "url": "http://threejs.org/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.inside.com.tw/2013/10/04/blippex",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.gizmag.com/boston-dynamics-wildcat-quadruped-robot/29286/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-07T03:19:17+00:00",
+    "name": "Eddie Lau",
+    "url": "http://mashable.com/2013/09/18/twitter-acquisitions/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-07T06:25:44+00:00",
+    "name": "Bruno Wu",
+    "url": "http://us6.campaign-archive1.com/?u=25f28e4ec7ca666caa89a660a&id=3cd0c8b9c0&e=49d0e2da14",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-07T10:37:34+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.youtube.com/watch?v=f488uJAQgmw&feature=youtube_gdata_player",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-07T10:38:09+00:00",
+    "name": "Josiah Hatch",
+    "url": "https://www.youtube.com/watch?v=jofNR_WkoCE&feature=youtube_gdata_player",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.quora.com/Silicon-Valley/What-do-people-in-Silicon-Valley-plan-to-do-once-they-hit-35-and-are-officially-over-the-hill?srid=hSk&share=1",
+    "tag": "Inspiration"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.codeavengers.com/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://method.ac/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://hackdesign.org/courses/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "https://www.edx.org/course/mit/6-00-1x/introduction-computer-science/1122",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.browserswarm.com/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://my.eoe.cn/sisuer/archive/3348.html(",
+      "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://appmaker.mozillalabs.com/designer",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T01:20:58+00:00",
+    "name": "Eddie Lau",
+    "url": "http://runnable.com/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T03:33:43+00:00",
+    "name": "Sophia Raji",
+    "url": "http://www.contentedcoder.com/2012/09/bubble-sort-algorithm-in-javascript.html",
+    "tag": "JavaScript"
+  },
+  {
+    "date": "2013-10-08T04:19:57+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://docs.angularjs.org/tutorial",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-08T06:29:14+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://d3js.org/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T06:29:14+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://connectedchina.reuters.com/",
+    "tag": "Misc/other"
+  },
+  {
+    "date": "2013-10-08T07:48:13+00:00",
+    "name": "Eddie Lau",
+    "url": "http://docs.angularjs.org/api/ng.$filter",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-08T07:49:15+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/angular/angular.js/wiki/Projects-using-AngularJS",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-08T11:40:29+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/ga-students/WDI_HK_1/tree/master/HKWDI_Project1",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-08T11:57:13+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/KarenZam/WDI_HK_1",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-08T11:59:30+00:00",
+    "name": "Matt Nodurfth",
+    "url": "https://github.com/ga-students/WDI_HK_1_Work/tree/master/homework_1",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-09T05:49:02+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://www.youtube.com/watch?v=Yn-oemgzlEU&feature=c4-overview-vl&list=PLfNe3nGQENtP3VCn1t1pybju9ffSPBohU",
+    "tag":"Funny"
+  },
+  {
+    "date": "2013-10-10T01:49:20+00:00",
+    "name": "Robyn Steinberg",
+    "url": "http://techdraft.hirebrite.com/app",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://nodeos.github.io/",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "https://sublimegit.net/",
+    "tag":"HTML"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/WhiteHouse/fortyfour/issues/3",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://railsrumble.com/",
+    "tag":"Ruby"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://blog.bufferapp.com/the-habits-of-successful-people-they-start-before-they-feel-ready",
+    "tag":"Inspiration"
+  },
+  {
+    "date": "2013-10-10T03:25:47+00:00",
+    "name": "Eddie Lau",
+    "url": "http://37signals.com/remote",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T03:27:27+00:00",
+    "name": "Robyn Steinberg",
+    "url": "http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-10T03:57:01+00:00",
+    "name": "Eddie Lau",
+    "url": "https://github.com/grevory/angular-local-storage",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-10T06:50:29+00:00",
+    "name": "Josiah Hatch",
+    "url": "http://www.telegraph.co.uk/technology/google/10350564/Google-Hummingbird-algorithm-to-elevate-niche-websites.html",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T06:59:33+00:00",
+    "name": "Eddie Lau",
+    "url": "http://www.cogmed.com/research",
+    "tag":"Misc/other"
+  },
+  {
+    "date": "2013-10-10T08:46:57+00:00",
+    "name": "Stephanie Siaw",
+    "url": "http://docs.angularjs.org/guide/directive",
+    "tag": "Angular JS"
+  },
+  {
+    "date": "2013-10-10T09:56:23+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://www.1stwebdesigner.com/freebies/css-cheat-sheets-designers/",
+    "tag": "CSS"
+  },
+  {
+    "date": "2013-10-10T10:05:11+00:00",
+    "name": "Matt Nodurfth",
+    "url": "http://goo.gl/XsI3Dd",
+    "tag":"Funny"
+  }
+]
